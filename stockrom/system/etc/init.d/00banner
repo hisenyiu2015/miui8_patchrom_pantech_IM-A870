@@ -1,0 +1,7 @@
+#!/system/bin/sh
+#
+# Print startup info
+#
+L="log -p i -t broken"
+
+$L "Welcome to Android `getprop ro.build.version.release` / BrokenOs `getprop ro.broken.version`";

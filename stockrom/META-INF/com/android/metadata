@@ -1,0 +1,3 @@
+post-build=pantech/cm_ef52l/ef52l:6.0.1/MOB30Z/61066a2564:userdebug/test-keys
+post-timestamp=1472492213
+pre-device=ef52l
