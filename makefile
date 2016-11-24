@@ -14,7 +14,7 @@ local-previous-target-dir :=
 # All apps from original ZIP, but has smali files chanded
 local-modified-apps := 
 
-local-modified-jars := 
+local-modified-jars := org.bluros.platform
 
 # All apks from MIUI
 local-miui-removed-apps := 
