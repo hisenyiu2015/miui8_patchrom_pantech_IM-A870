@@ -30666,23 +30666,9 @@
 .end method
 
 .method public showBootMessage(Landroid/content/pm/ApplicationInfo;IIZ)V
-    .locals 2
-    .param p1, "info"    # Landroid/content/pm/ApplicationInfo;
-    .param p2, "current"    # I
-    .param p3, "total"    # I
-    .param p4, "always"    # Z
+    .locals 0
 
     .prologue
-    .line 7504
-    iget-object v0, p0, Lcom/android/server/policy/PhoneWindowManager;->mHandler:Landroid/os/Handler;
-
-    new-instance v1, Lcom/android/server/policy/PhoneWindowManager$31;
-
-    invoke-direct {v1, p0, p1, p2, p3}, Lcom/android/server/policy/PhoneWindowManager$31;-><init>(Lcom/android/server/policy/PhoneWindowManager;Landroid/content/pm/ApplicationInfo;II)V
-
-    invoke-virtual {v0, v1}, Landroid/os/Handler;->post(Ljava/lang/Runnable;)Z
-
-    .line 7503
     return-void
 .end method
 
