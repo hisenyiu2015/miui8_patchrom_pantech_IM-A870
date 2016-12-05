@@ -53,6 +53,7 @@ include $(PORT_BUILD)/porting.mk
 local-pre-zip-misc:
 	@echo copy files
 	cp -a -rf patchrom/system/* $(ZIP_DIR)/system/
+	cp -a -rf patchrom/META-INF/* $(ZIP_DIR)/META-INF/
 	@echo goodbye! miui prebuilt binaries!
 	rm -rf $(ZIP_DIR)/system/bin/app_process32_vendor
 	cp -rf stockrom/system/bin/app_process32 $(ZIP_DIR)/system/bin/app_process32
